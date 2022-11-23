@@ -1,6 +1,5 @@
 import React, {useState} from "react";
 import { Button } from "@mui/material";
-import Icon from '@mui/material/Icon'
 
 
 
@@ -9,15 +8,15 @@ function Counter(){
     const [dislike, setDislike] = useState(0);
   
     return(
-      <>
+      <div style={{marginTop:"10px"}}>
       <Button variant="outlined" onClick={()=> {setLike(like+1)}}>
-       <Icon baseClassName="fa" className="fa-thumbs-up"/> Like  {like}
+       Like  {like}
       </Button>
   
-      <Button variant="outlined" onClick={()=> {setDislike(like-1)}}>
+      <Button style={{marginLeft:"10px"}} variant="outlined" onClick={()=> {setDislike(like-1)}}>
       Dislike {dislike}
       </Button>
-      </>
+      </div>
     )
   }
 

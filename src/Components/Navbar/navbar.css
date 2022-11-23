@@ -1,0 +1,35 @@
+.nav-section{
+    margin:20px 60px 10px 60px;
+    background: #a3b7ca;
+    color:#05445E;
+    height: 60px;
+    border: solid rgb(72, 96, 143) 1px;
+    border-radius: 10px;
+    box-shadow: 0 14px 28px #a3b7ca;
+}
+
+.navbar{
+   display: flex;
+   justify-content: space-around;
+   padding: 15px;
+}
+
+li{
+    list-style-type: none;
+}
+
+a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #3b6791;
+    transition: transform 0.5s ease, opacity 0.2s ease;
+    transform: translateY(0);
+    cursor: pointer;
+}
+
+a:hover{
+    color:black;
+    transform: translateY(-6px);
+}
