@@ -13,7 +13,7 @@ function Counter(){
        Like  {like}
       </Button>
   
-      <Button style={{marginLeft:"10px"}} variant="outlined" onClick={()=> {setDislike(like-1)}}>
+      <Button style={{marginLeft:"10px"}} variant="outlined" onClick={()=> {setDislike(dislike+1)}}>
       Dislike {dislike}
       </Button>
       </div>

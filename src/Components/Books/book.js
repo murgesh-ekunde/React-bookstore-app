@@ -20,10 +20,11 @@ const ReadMore = ({ children }) => {
   );
 };
 
-const book = (props) => {
- 
+const book = (props,{newBookList, setNewBookList}) => {
   return (
+   
     <div className="books">
+       {props.index}
       <Card 
         style={{
           height: "50rem",

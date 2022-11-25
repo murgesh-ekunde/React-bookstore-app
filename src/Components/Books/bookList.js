@@ -1,6 +1,6 @@
 
     const bookList = [{
-        key: 1,
+        index: 1,
         name:"Where the Crawdads Sing",
         image:"https://secure.coverart.bookstores.com/large/106/1-9780735219106.jpg",
         rating:7,
@@ -9,7 +9,7 @@
         Link:"https://www.amazon.com/gp/product/0735219109/ref=as_li_tf_tl?ie=UTF8&tag=bookstoresc03-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=0735219109"
     },
     {
-        key: 2,
+        index: 2,
         name:"Atomic Habits",
         image:"https://secure.coverart.bookstores.com/large/292/1-9780735211292.jpg",
         rating:8,
@@ -18,7 +18,7 @@
         Link:"https://www.amazon.com/gp/product/0735211299/ref=as_li_tf_tl?ie=UTF8&tag=bookstoresc03-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=0735211299"
     },
     {
-        key: 3,
+        index: 3,
         name:"How to Win Friends and Influence People",
         image:"https://secure.coverart.bookstores.com/large/818/1-9780091906818.jpg",
         rating:9,
@@ -27,7 +27,7 @@
         Link:"https://www.bookstores.com/browse/Books/9780091906818"
     },
     {
-        key: 4,
+        index: 4,
         name:"Ocean, Exploring the Marine World",
         image:"https://images-us.bookshop.org/ingram/9781838664787.jpg?height=500&v=v2-2aca2c25c6adf488aeefbe96d5e324a1",
         rating:4,
@@ -36,7 +36,7 @@
         Link:"https://bookshop.org/p/books/ocean-exploring-the-marine-world-phaidon-press/18420150?aid=82527&ean=9781838664787&listref=best-photo-albums-of-the-year-so-far"
     },
     {
-        key: 5,
+        index: 5,
         name:"Think Again: The Power of Knowing What You Don't Know",
         image:"https://secure.coverart.bookstores.com/large/106/1-9780735219106.jpg",
         rating:7,
@@ -45,16 +45,16 @@
         Link:"https://bookshop.org/p/books/think-again-the-power-of-knowing-what-you-don-t-know-adam-grant/15174400?aid=8952&ean=9781984878106&listref=important-not-important-book-club"
     },
     {
-        key: 6,
+        index: 6,
         name:"Vahana: Vehicles of the Gods ",
         image:"https://m.media-amazon.com/images/I/71l+U6us55L.jpg",
         rating:8,
-        summary:"The book is a collection of fifteen stories - some telling us how gods got their vahana - or vehicles; others narrating their fun and adventures together. These are some interesting and hilarious stories about Shiva, Vishnu, Brahma, Lakshmi, Durga, Ganesha, Kartikeya, Indra, among others, and their adorable vahanas.",
+        summary:"The book is a collection of fifteen stories - some telling us how gods got their vahana - or vehicles; others narrating their fun and adventures together. These are some interesting and hilarious stories about Shiva, Vishnu, Brahma, Lakshmi, Durga, Ganesha, Kartiindexa, Indra, among others, and their adorable vahanas.",
         language:"English",
         Link:"https://www.amazon.in/dp/9390441080/ref=s9_acsd_al_bw_c2_x_0_i?pf_rd_m=A1K21FY43GMZF8&pf_rd_s=merchandised-search-4&pf_rd_r=989H8JGFWHJ7TY84WT3K&pf_rd_t=101&pf_rd_p=a59b8b33-875f-4eaf-967c-fa39dad1844d&pf_rd_i=976389031"
     },
     {
-        key: 7,
+        index: 7,
         name:"NETAJI: Subhas Chandra Bose's Life, Politics and Struggle",
         image:"https://m.media-amazon.com/images/I/71m6ZwWkhkL.jpg",
         rating:9,

@@ -14,6 +14,7 @@ function bookComponent() {
         {bookList.map((bookItem) => (
           <Col lg={4} md={6}>
             <Book
+              key={bookItem.index}
               name={bookItem.name}
               image={bookItem.image}
               summary={bookItem.summary}

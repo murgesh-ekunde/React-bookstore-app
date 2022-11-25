@@ -32,3 +32,26 @@
     border-radius: 10px;
 }
 
+.bookForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bookForm input{
+    width:50rem;
+    border-radius: 25px;
+}
+
+.mb-3{
+    margin-left:100px;
+    width:max-content;
+    border-radius: 25px;
+}
+
+#textip{
+    width: 150px;
+    background: #a3b7ca;
+    color:#254d74;
+}
